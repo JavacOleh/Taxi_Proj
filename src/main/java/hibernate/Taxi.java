@@ -23,4 +23,5 @@ public class Taxi {
     public String toGetInfo() {
         return taxiType;
     }
+
 }

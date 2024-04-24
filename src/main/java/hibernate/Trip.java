@@ -36,7 +36,6 @@ public class Trip {
     @Column(name = "KilometersForTrip", precision = 10, scale = 2)
     private BigDecimal kilometersForTrip;
 
-
     public Trip(Client client, Rider rider, Taxi taxi, BigDecimal sumForTrip, BigDecimal kilometersForTrip, String comment) {
         this.client = client;
         this.comment = comment;

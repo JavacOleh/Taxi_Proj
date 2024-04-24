@@ -49,6 +49,7 @@ public class EditTripServlet extends HttpServlet {
                 trip.setComment(comment);
             }
 
+
             tripDAO.updateTrip(trip);
         }
         response.sendRedirect("viewTrips.jsp");

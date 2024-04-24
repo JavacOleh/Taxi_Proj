@@ -29,7 +29,6 @@ public class ViewTripsServlet extends HttpServlet {
                 currentTripId = 0;
             }
         }
-
         Trip trip = tripDAO.getTripById(currentTripId);
         if ("next".equals(action)) {
             Integer nextTripId = tripDAO.getNextTripId(currentTripId);

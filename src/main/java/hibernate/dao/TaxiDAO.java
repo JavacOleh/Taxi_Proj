@@ -26,7 +26,6 @@ public class TaxiDAO {
             return null;
         }
     }
-
     public void saveTaxi(Taxi taxi) {
         try (Session session = HibernateConfig.getSessionFactory().openSession()) {
             session.save(taxi);

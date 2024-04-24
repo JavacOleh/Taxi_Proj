@@ -12,4 +12,5 @@ public class OperatorServlet extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
         dispatcher.forward(request, response);
     }
+
 }

@@ -29,4 +29,5 @@ public class Rider {
         this.name = name;
         this.riderRate = riderRate;
     }
+
 }

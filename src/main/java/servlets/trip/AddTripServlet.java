@@ -32,7 +32,6 @@ public class AddTripServlet extends HttpServlet {
 
             client = clientDAO.getClientById(Integer.parseInt(existingClientId));
 
-
             tripDAO.saveTrip(
                     new Trip(
                             client,

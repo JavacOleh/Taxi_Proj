@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-
 @WebServlet(name = "AddNewClientServlet", urlPatterns = {"/addNewClient"})
 public class AddNewClientServlet extends HttpServlet {
     ClientDAO clientDAO = new ClientDAO();

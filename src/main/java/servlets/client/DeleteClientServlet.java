@@ -28,7 +28,6 @@ public class DeleteClientServlet extends HttpServlet {
             if (client != null)
                 clientDAO.deleteClient(client);
         }
-
         response.sendRedirect("manageClient.jsp");
     }
 }
