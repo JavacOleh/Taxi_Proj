@@ -26,7 +26,6 @@
                 <p>Клиент: ${trip.client.name}</p>
                 <form action="editTrip.jsp" method="get">
                     <input type="hidden" name="currentTripId" value="${currentTripId}">
-                    <button type="submit" name="action" value="editClient">Изменить</button>
                 </form>
             </div>
 
